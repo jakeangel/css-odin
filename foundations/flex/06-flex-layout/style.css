@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -23,6 +29,7 @@ a{
 
 ul{
   list-style-type:none;
+  
 }
 
 button {
@@ -39,3 +46,16 @@ input {
   width: 400px;
 }
 
+.header,
+.footer{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding:16px;
+}
+
+.left-links,
+.right-links{
+  display:flex;
+  gap:16px;
+}
