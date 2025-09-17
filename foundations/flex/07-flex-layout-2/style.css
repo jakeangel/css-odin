@@ -11,12 +11,21 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display:flex;
+  align-items:center;
+  font-weight:900;
+  padding: 0 16px;
+  
+
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .sidebar {
