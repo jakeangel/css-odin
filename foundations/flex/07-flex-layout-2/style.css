@@ -16,7 +16,6 @@ body {
   font-weight:900;
   padding: 0 16px;
   
-
 }
 
 .footer {
@@ -43,4 +42,13 @@ body {
 .center-flexbox{
   display:flex;
   flex-grow:1;
+}
+
+a{
+  text-decoration:none;
+  color:#000;
+}
+
+ul{
+  list-style:none;
 }
